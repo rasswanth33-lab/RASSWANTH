@@ -1,0 +1,5 @@
+import { ArrowUp, Globe2, Send } from "lucide-react";
+
+export default function Footer() {
+  return <footer className="border-t border-white/10 px-5 py-8 sm:px-8 lg:px-12"><div className="mx-auto flex max-w-7xl flex-col gap-6 text-xs text-zinc-600 sm:flex-row sm:items-center sm:justify-between"><p>© 2026 Rasswanth. Made with care.</p><div className="flex items-center gap-5"><a href="https://github.com/rasswanth33-lab" target="_blank" rel="noreferrer" aria-label="Github" className="transition-colors hover:text-white"><Globe2 size={15} /></a><a href="https://www.linkedin.com/in/rasswanth-s-8880b7343" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="transition-colors hover:text-white"><Send size={15} /></a><a href="#top" aria-label="Back to top" className="ml-3 flex h-8 w-8 items-center justify-center rounded-full border border-white/15 text-zinc-400 transition-colors hover:border-[#ff3b30] hover:text-[#ff3b30]"><ArrowUp size={14} /></a></div></div></footer>;
+}
